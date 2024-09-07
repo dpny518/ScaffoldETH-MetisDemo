@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import type { NextPage } from "next";
 import { useAccount } from "wagmi";
@@ -38,7 +36,7 @@ const Home: NextPage = () => {
             </code>
           </p>
           <p className="text-center text-lg mt-4">
-            <strong style={{ fontSize: "36px", color: "#04D1FF" }}>DEPLOY ON METIS!</strong>
+            <strong style={{ fontSize: "36px", color: "#04D1FF" }}>DEPLOY ON METIS</strong>
           </p>
         </div>
 
